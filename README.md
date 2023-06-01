@@ -19,8 +19,15 @@ Student3,5.0
 ## Running the application
 The project is a standard Maven project. To run it from the command line,
 type 
-    for Linux - 'mvn clean install && mvn spring-boot::run -pl frontend'
-    for Windows Powershell - '(mvn clean install) -and (mvn spring-boot::run -pl frontend)'
+- for Linux: 
+
+
+    'mvn clean install && mvn spring-boot::run -pl frontend'
+- for Windows Powershell: 
+
+
+    '(mvn clean install) -and (mvn spring-boot::run -pl frontend)'
+
 to build and run the project, then open
 http://localhost:8080 in your browser.
 
