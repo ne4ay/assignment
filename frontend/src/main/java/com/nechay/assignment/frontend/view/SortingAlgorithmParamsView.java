@@ -5,20 +5,22 @@ import com.nechay.assignment.api.SortingDirection;
 import com.nechay.assignment.api.student.StudentValueMapper;
 import com.vaadin.flow.component.combobox.ComboBox;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
-import org.springframework.stereotype.Component;
+import com.vaadin.flow.spring.annotation.SpringComponent;
+import com.vaadin.flow.spring.annotation.UIScope;
 
 import javax.annotation.Nonnull;
 
 /**
  * @author onechaev
  */
-@Component
-public class SortingAlgorithmView extends VerticalLayout {
+@SpringComponent
+@UIScope
+public class SortingAlgorithmParamsView extends VerticalLayout {
     private final ComboBox<SortingAlgorithm> algorithmComboBox = new ComboBox<>("Algorithm");
     private final ComboBox<SortingDirection> sortingDirectionComboBox = new ComboBox<>("Direction");
     private final ComboBox<StudentValueMapper> valueMapperComboBox = new ComboBox<>("Order by");
 
-    public SortingAlgorithmView() {
+    public SortingAlgorithmParamsView() {
         algorithmComboBox.setItems(SortingAlgorithm.values());
         algorithmComboBox.setItemLabelGenerator(SortingAlgorithm::getVisibleName);
         algorithmComboBox.setValue(SortingAlgorithm.BUBBLE_SORT); // default value

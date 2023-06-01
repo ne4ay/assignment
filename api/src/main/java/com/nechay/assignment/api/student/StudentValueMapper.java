@@ -1,20 +1,29 @@
 package com.nechay.assignment.api.student;
 
 import javax.annotation.Nonnull;
-import java.util.function.Function;
+import java.util.Comparator;
 
 /**
  * @author onechaev
  */
-public enum StudentValueMappers {
-    BY_NAME("By name", ),
-    BY_SCORE("By score", );
+public enum StudentValueMapper {
+    BY_NAME("By name", Comparator.comparing(Student::name)),
+    BY_SCORE("By score", Comparator.comparingDouble(Student::score))
+    ;
 
     private final String name;
-    private final Function<Student, ? extends Comparable<?>> valueExtractor;
+    private final Comparator<Student> comparator;
 
-    StudentValueMappers(@Nonnull String name, @Nonnull Function<Student, ? extends Comparable<?>> valueExtractor) {
+    StudentValueMapper(@Nonnull String name, @Nonnull Comparator<Student> comparator) {
         this.name = name;
-        this.valueExtractor = valueExtractor;
+        this.comparator = comparator;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Comparator<Student> getComparator() {
+        return comparator;
     }
 }

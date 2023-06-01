@@ -4,11 +4,139 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c7f0477-c553-46b5-9d94-c97fa8202536" name="Changes" comment="" />
+    <list default="true" id="7c7f0477-c553-46b5-9d94-c97fa8202536" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/nechay/assignment/api/ConcreteSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/nechay/assignment/api/SortResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/nechay/assignment/api/Sorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/nechay/assignment/api/SorterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/nechay/assignment/api/SortingAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/nechay/assignment/api/SortingDirection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/nechay/assignment/api/SortingParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/nechay/assignment/api/student/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/nechay/assignment/api/student/StudentValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/nechay/assignment/api/utils/NanoClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/Flow.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/Flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/Flow.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/FlowBootstrap.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/FlowBootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/FlowClient.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/FlowClient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/comboBoxConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/contextMenuConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/contextMenuTargetConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/cookieConsentConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/datepickerConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/dndConnector-es6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/dndConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/file-download-wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/flow-component-directive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/flow-component-renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/gridConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/gridProConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/lit-renderer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/lumo-includes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/material-includes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/menubarConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/messageListConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/selectConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/tooltip.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-big-decimal-field.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-dev-tools/License.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-dev-tools/component-picker.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-dev-tools/component-util.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-dev-tools/copy-to-clipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-dev-tools/shim.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-dev-tools/vaadin-dev-tools.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-grid-flow-selection-column.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-map/mapConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-map/synchronization/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-map/synchronization/layers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-map/synchronization/sources.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-map/synchronization/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-map/synchronization/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-map/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-time-picker/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/vaadin-time-picker/timepickerConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/jar-resources/virtualListConnector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/theme.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/vaadin-featureflags.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/vaadin.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/generated/vite-devmode.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/themes/main/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/frontend/themes/main/theme.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/nechay/assignment/frontend/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/nechay/assignment/frontend/component/FileUploadComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/nechay/assignment/frontend/component/SortingAlgorithmParamsComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/nechay/assignment/frontend/component/SortingTableComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/nechay/assignment/frontend/download/FileStreamResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/nechay/assignment/frontend/environment/SuccessFileDownloadListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/nechay/assignment/frontend/model/FileModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/nechay/assignment/frontend/page/MainView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/nechay/assignment/frontend/presenter/FileUploadPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/nechay/assignment/frontend/presenter/SortingAlgorithmParamsPresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/nechay/assignment/frontend/presenter/SortingTablePresenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/nechay/assignment/frontend/sort/SortConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/nechay/assignment/frontend/view/FileUploadView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/nechay/assignment/frontend/view/SortingAlgorithmParamsView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/java/com/nechay/assignment/frontend/view/SortingTableView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/vite.generated.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorter-impl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorter-impl/src/main/java/com/nechay/assignment/sorter/impl/AbstractTimeMeasuringSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorter-impl/src/main/java/com/nechay/assignment/sorter/impl/SimpleBubbleSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorter-impl/src/main/java/com/nechay/assignment/sorter/impl/SimpleHeapSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorter-impl/src/main/java/com/nechay/assignment/sorter/impl/SimpleMergeSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorter-impl/src/main/java/com/nechay/assignment/sorter/impl/SimpleSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorter-impl/src/main/java/com/nechay/assignment/sorter/impl/SimpleSorterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorter-impl/src/main/java/com/nechay/assignment/sorter/impl/auxiliary/Heap.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -21,11 +149,66 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-17",
+    "last_opened_file_path": "C:/Users/anechaev/IdeaProjects/untitled",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "spring.configuration.checksum": "aca33b9c046b2a50b8c3c54cc0380de8"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.nechay.assignment.frontend.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\anechaev\IdeaProjects\assignment" />
+      <recent name="C:\Users\anechaev\IdeaProjects\assignment\frontend\frontend\themes" />
+      <recent name="C:\Users\anechaev\IdeaProjects\assignment\frontend\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\anechaev\IdeaProjects\assignment" />
+      <recent name="C:\Users\anechaev\IdeaProjects\assignment\frontend\frontend\themes\main" />
+      <recent name="C:\Users\anechaev\IdeaProjects\assignment\frontend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application (1)">
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="frontend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nechay.assignment.frontend.Application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nechay.assignment.frontend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="frontend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ne4ay.assignment.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application (1)" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,8 +217,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685473035366</updated>
+      <workItem from="1685473635302" duration="1485000" />
+      <workItem from="1685475146965" duration="1662000" />
+      <workItem from="1685477710740" duration="4630000" />
+      <workItem from="1685531903721" duration="13745000" />
+      <workItem from="1685566254593" duration="635000" />
+      <workItem from="1685567472045" duration="27000" />
+      <workItem from="1685567587214" duration="175000" />
+      <workItem from="1685567775899" duration="19000" />
+      <workItem from="1685568019449" duration="10383000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
     <option name="sizePresets">

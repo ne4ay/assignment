@@ -1,5 +1,13 @@
-package com.nechay.assignment.api.student;/**
- * @author onechaev 
+package com.nechay.assignment.api.student;
+
+import javax.annotation.Nonnull;
+
+/**
+ * @author onechaev
  */
-public class Student {
+public record Student(@Nonnull String name, double score) {
+
+    public String toCsvRow() {
+        return name + "," + score;
+    }
 }

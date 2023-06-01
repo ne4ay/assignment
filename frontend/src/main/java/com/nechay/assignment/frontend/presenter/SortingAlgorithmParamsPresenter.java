@@ -2,19 +2,21 @@ package com.nechay.assignment.frontend.presenter;
 
 import com.nechay.assignment.api.SortingParams;
 import com.nechay.assignment.api.student.Student;
-import com.nechay.assignment.frontend.view.SortingAlgorithmView;
+import com.nechay.assignment.frontend.view.SortingAlgorithmParamsView;
+import com.vaadin.flow.spring.annotation.SpringComponent;
+import com.vaadin.flow.spring.annotation.UIScope;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 /**
  * @author onechaev
  */
-@Component
-public class SortingAlgorithmPresenter {
+@SpringComponent
+@UIScope
+public class SortingAlgorithmParamsPresenter {
 
-    private final SortingAlgorithmView view;
+    private final SortingAlgorithmParamsView view;
 
-    public SortingAlgorithmPresenter(@Autowired SortingAlgorithmView view) {
+    public SortingAlgorithmParamsPresenter(@Autowired SortingAlgorithmParamsView view) {
         this.view = view;
     }
 

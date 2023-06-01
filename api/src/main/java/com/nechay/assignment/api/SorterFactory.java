@@ -1,5 +1,8 @@
-package com.nechay.assignment.api;/**
- * @author onechaev 
+package com.nechay.assignment.api;
+
+/**
+ * @author onechaev
  */
-public class SorterFactory {
+public interface SorterFactory {
+    Sorter createSorter();
 }
