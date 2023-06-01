@@ -1,4 +1,4 @@
-# My Todo
+# Student sorter
 
 This project is dedicated to the following assginment: 
 
